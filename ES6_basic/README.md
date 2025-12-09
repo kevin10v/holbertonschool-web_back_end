@@ -1,10 +1,8 @@
 # ES6 Basics
 
-## Description
-This project covers the basics of ECMAScript 6 (ES6), also known as ECMAScript 2015. It introduces new features and syntax improvements in JavaScript.
+This project covers the fundamentals of ECMAScript 6 (ES6), also known as ECMAScript 2015.
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 - What ES6 is
 - New features introduced in ES6
@@ -17,34 +15,70 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Iterators and for-of loops
 
 ## Requirements
-- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using node 20.x.x and npm 9.x.x
-- Allowed editors: vi, vim, emacs, Visual Studio Code
-- All your files should end with a new line
-- Your code should use the `.js` extension
-- Your code will be tested using the Jest Testing Framework
-- Your code will be analyzed using the linter ESLint along with specific rules
-- All of your functions must be exported
+
+- All files interpreted/compiled on Ubuntu 20.04 LTS using node 20.x.x and npm 9.x.x
+- All files should end with a new line
+- Code should use the `.js` extension
+- Code will be tested using the Jest Testing Framework
+- Code will be analyzed using ESLint
 
 ## Setup
-Install NodeJS 20.x.x (in your home directory):
+
+Install NodeJS 20.x.x:
+
 ```bash
 curl -sL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
 ```
 
-Install Jest, Babel, and ESLint in your project directory:
+Install project dependencies:
+
 ```bash
 npm install
 ```
 
-## Resources
-- [ECMAScript 6 - ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)
-- [Statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
-- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-- [Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
-- [Rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
-- [Javascript ES6 — Iterables and Iterators](https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4)
+## Tasks
+
+### 0. Const or let?
+Modify functions to use `const` and `let` instead of `var`.
+
+### 1. Block Scope
+Use block-scoped variables to prevent variable overwriting inside conditional blocks.
+
+### 2. Arrow functions
+Rewrite standard functions using ES6 arrow syntax.
+
+### 3. Parameter defaults
+Use default parameter values for function parameters.
+
+### 4. Rest parameter syntax for functions
+Use rest parameter syntax to handle variable number of arguments.
+
+### 5. The wonders of spread syntax
+Use spread syntax to concatenate arrays and strings.
+
+### 6. Take advantage of template literals
+Use template literals for string interpolation.
+
+### 7. Object property value shorthand syntax
+Use object property shorthand when keys and variable names are the same.
+
+### 8. No need to create empty objects before adding in properties
+Use ES6 computed property names on objects.
+
+### 9. ES6 method properties
+Use ES6 method properties in objects.
+
+### 10. For...of Loops
+Use ES6's for...of operator to iterate over arrays.
+
+### 11. Iterator
+Create a function that returns an object with a department name and employees.
+
+### 12. Let's create a report object
+Create a report object with all employees and a method to get the number of departments.
 
 ## Author
+
 Holberton School Project
